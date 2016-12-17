@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script type="text/javascript" src="/build/bundle.js">
+  </script>
+  <title>Document</title>
+  <!--<link href="./public/css/style.css">-->
+ 
+  <style>body{background:#ccc;}
+    .maind{background: #fff; padding: 5px 10px; float: left; min-height:200px; border:1px solid #fff;}
+    .maind a{display: block; color: green; padding: 5px; text-decoration: none;}
+    .main2{float: left; padding: 5px 15px; border:1px solid #fff; min-height:200px}
+    .mnd{min-width: 10%; margin: auto;}
+  </style>
+</head>
+<body>
+  <div class="mnd">
+  <h3>This is Master Page</h3>
+  <div class="maind">
+  <!--<a href="#/">Home</a>
+  <a href="#/create">Add Movie</a>
+  <a href="#/edit">Edit Movie</a>
+  <a href="#/delete">Delete Movie</a>-->
+  <a href="#/">Home</a>
+  <a href="#/city">City</a>
+  <a href="#/oder">Oder</a>
+  <a href="#/theater">Theater</a>
+  <a href="#/time">Time</a>
+  <a href="#/create">Add Movie</a>
+  <a href="#/edit">Edit Movie</a>
+  <a href="#/delete">Delete Movie</a>
+  </div>
+  <div class="main2">
+  <div ng-view></div>
+  </div>
+  </div>
+</body>
+</html>
